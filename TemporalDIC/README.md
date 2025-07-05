@@ -1,6 +1,6 @@
 # TemporalDIC
 
-基于深度学习的时序数字图像相关项目，使用MOFNet网络进行多帧光流估计。
+基于深度学习的时序数字图像相关项目，使用TemporalDICNet网络进行多帧光流估计。
 
 ## 安装
 
@@ -28,5 +28,4 @@ python train.py --exp_name your_experiment_name
 ```bash
 python test.py
 ```
-
-权重文件保存在 `F:\record\{exp_name}\` 目录下。 
+ 
