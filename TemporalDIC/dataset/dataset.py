@@ -69,9 +69,9 @@ class FlowDataset(data.Dataset):
 
 
         flows_new = []
-        flows_new.append(flows[0] + flows[1] + flows[2])
-        flows_new.append(flows[0] + flows[1] + flows[2] + flows[3])
-        flows_new.append(flows[0] + flows[1] + flows[2] + flows[3] + flows[4])
+        flows_new.append(flows[2])
+        flows_new.append(flows[3])
+        flows_new.append(flows[4])
 
 
         imgs = [read_gen(path) for path in self.image_list[index]]
