@@ -26,6 +26,7 @@ data/
 python train.py --exp_name your_experiment_name
 ```
 
+
 ### 测试
 ```bash
 python test.py
